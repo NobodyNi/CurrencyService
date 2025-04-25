@@ -1,4 +1,4 @@
-from .abstract import AbstractCurrency
+from ..base.abstract import AbstractCurrency
 
 
 class MemoryCurrency(AbstractCurrency):
