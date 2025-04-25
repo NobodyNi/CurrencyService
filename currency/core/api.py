@@ -1,7 +1,8 @@
 from fastapi import APIRouter
 
+from ..schemas.schemas import CurrencySchema
 from .memory import currencies
-from .schemas import CurrencySchema
+
 from .rates import get_exchange_rates
 
 import logging
